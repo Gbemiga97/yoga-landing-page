@@ -6,7 +6,7 @@ import CourseImage3 from '../assets/img/courses/course-3.png';
 import Card1 from '../assets/img/cards/card-1.png'
 import Card2 from '../assets/img/cards/card-2.png'
 import Card3 from '../assets/img/cards/card-3.png'
-
+import JohnCena from '../assets/img/john-cena.png'
 
 
 export default {
@@ -18,4 +18,5 @@ export default {
     Card1,
     Card2,
     Card3,
+    JohnCena
 }

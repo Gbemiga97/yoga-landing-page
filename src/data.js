@@ -103,7 +103,7 @@ export const pricing = [
     delay: '600',
   },
   {
-    title: 'Single yoga class',
+    title: '1 month membership',
     price: '$60.',
     list: [
       {
@@ -128,7 +128,7 @@ export const pricing = [
     delay: '800',
   },
   {
-    title: 'Single yoga class',
+    title: '3 month membership',
     price: '$150.',
     list: [
       {

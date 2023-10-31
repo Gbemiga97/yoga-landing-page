@@ -3,14 +3,17 @@ import { images } from "../constants"
 
 const Cards = () => {
   return (
-    <section className="bg-cardsBg min-h-[260px] pb-[55px] lg:-mt-24 ">
+    <section 
+    data-aos='fade-up' data-aos-duration='1600'  data-aos-delay='800'
+    className="bg-cardsBg min-h-[260px] pb-[55px] lg:-mt-24 ">
         <div className="container mx-auto flex flex-col lg:flex-row gap-x-[2rem] ">
 
             <div className="flex flex-1 gap-x-[0.9rem] lg:gap-x-[2rem] -mt-[2.5rem]
             z-10 lg:-mt-[77px] mx-auto">
 
                 {/* Card 1 */}
-                <div className="bg-white w-full max-w-[282px] p-[14px]
+                <div  data-aos='fade-up'  data-aos-delay='400'
+                className="bg-white w-full max-w-[282px] p-[14px]
                 lg:p-[26px] shadow-2xl rounded-md max-h-[282px]">
                     <div className="flex items-center mb-[1.2rem] lg:[28px]">
                         <h4 className="text-lg lg:text-2xl lg:leading-7 font-bold
@@ -27,7 +30,9 @@ const Cards = () => {
 
 
                 {/* Card 2 */}
-                <div className="bg-white w-full max-w-[282px] p-[14px]
+                <div 
+                 data-aos='fade-up'  data-aos-delay='600'
+                className="bg-white w-full max-w-[282px] p-[14px]
                 lg:p-[26px] shadow-2xl rounded-md max-h-[282px]">
                     <div className="flex items-center mb-[1.2rem] lg:[28px]">
                         <h4 className="text-lg lg:text-2xl lg:leading-7 font-bold
@@ -43,7 +48,9 @@ const Cards = () => {
             </div>
 
              {/* Card 3 */}
-             <div className="bg-white w-full flex-1 max-w-[542px] mx-auto p-[0.8rem]
+             <div 
+              data-aos='fade-up'  data-aos-delay='800'
+             className="bg-white w-full flex-1 max-w-[542px] mx-auto p-[0.8rem]
                 lg:p-[1.6rem]  mt-4 lg:-mt-[77px] z-10 shadow-2xl rounded-md flex 
                 justify-between items-start">
 
